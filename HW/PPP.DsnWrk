@@ -1,0 +1,8 @@
+[ProjectGroup]
+Version=1.0
+[Project1]
+ProjectPath=LittleBrainPlusPlus\altium\LittleBrain++.PrjPcb
+[Project2]
+ProjectPath=PHIL_LAB_STM32\PHIL_LAB_STM32.PrjPcb
+[Project3]
+ProjectPath=MCU_STM32\MCU_STM32.PrjPcb
