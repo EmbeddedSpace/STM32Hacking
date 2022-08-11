@@ -1,0 +1,3 @@
+[submodule "HW/vendor/LittleBrainPlusPlus"]
+	path = HW/vendor/LittleBrainPlusPlus
+	url = https://github.com/pms67/LittleBrainPlusPlus.git
