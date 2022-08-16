@@ -95,10 +95,9 @@ int main(void)
         if(HAL_GPIO_ReadPin(KEY0_GPIO_Port, KEY0_Pin) == 0 )
         {
             HAL_Delay(100);
-            if(HAL_GPIO_ReadPin(KEY0_GPIO_Port, KEY0_Pin) == 0 )
-            {
-                HAL_GPIO_TogglePin(LED0_GPIO_Port, LED0_Pin);
-            }
+            while(HAL_GPIO_ReadPin(KEY0_GPIO_Port, KEY0_Pin) == 0 );
+            HAL_Delay(100);
+            HAL_GPIO_TogglePin(LED0_GPIO_Port, LED0_Pin);
         }
         /* USER CODE END WHILE */
 
